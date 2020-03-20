@@ -1,0 +1,60 @@
+.center{
+     text-align:center
+    }
+ .third_raw{
+     width:33.3%;position:relative;float:left;padding:1em 0;display:contents;
+    }
+ #covidwp p{
+     display:block;clear:both}
+
+ .title{
+     width:100%;padding-top:10px;display:inline-block
+    }
+ .covid-wp-loading1,.covid-wp-loading2{
+     position: absolute;background-image:URL( '../images/loading.svg' );background-size:20px 20px;background-repeat:no-repeat;width:40px;height:40px
+    }
+    div#covidwp {
+        background-color: #ff8400;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    h3#covid19-total-confirm {
+        color: white;
+        background-color: orange;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    h3#covid19-total-dead {
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+          margin: 5px;
+    }
+    h3#covid19-total-recoverd {
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    h3#covid19-sudan-confirm {
+        color: white;
+        background-color: orange;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    h3#covid19-sudan-dead {
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+          margin: 5px;
+    }
+    h3#covid19-sudan-recoverd {
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        margin: 5px;
+    }
+ @media screen and (max-width:600px){
+ .third_raw{width:50%;padding: 0 0 1em
+}
+ }
