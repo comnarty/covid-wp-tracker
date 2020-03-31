@@ -12,7 +12,7 @@ A small wordpress Plugin to fetch Covid Stats Worldwide and for Sudan specificly
 - covid-wp-tracker.php        	    	    |       plugin main php file
 
 
-# If You want to use it for another country just change (let urlt) value in /pub/assets/js/public.js file, and change the the country name in /inc/class-data.php.
+# If You want to use it for another country just change (urlt) value in /pub/assets/js/public.js file, and change the the country name in /inc/class-data.php.
 
 ### This plugin use the below API :
  https://github.com/NovelCOVID/API
