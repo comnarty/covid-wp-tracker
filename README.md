@@ -1,7 +1,9 @@
 # covid WP Tracker
 A small wordpress Plugin to fetch Covid-19 Stats for Total and Sudan in specific.
 
-Plugin Contents:
+
+### Plugin Contents:
+.
 ├── inc/
 │   ├── class-data.php                     - The file that defines the core plugin class.
 │   └── class-loader.php                   - Register all actions and filters for the plugin.
