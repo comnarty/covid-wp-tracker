@@ -2,8 +2,8 @@
 	'use strict';
 	$(document).ready(function(){
 	// API URL's //	
-    let url = "//corona.lmao.ninja/all";
-    let urlt = "//corona.lmao.ninja/countries/sudan";
+    let url = "//corona.lmao.ninja/V2/all";
+    let urlt = "//corona.lmao.ninja/V2/countries/sudan";
     //Fetch Stats for Total //
     $.getJSON(url,function(data,status){
         $("#covid19-total-confirm").append(data["cases"]);
